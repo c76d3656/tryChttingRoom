@@ -4,8 +4,8 @@ use std::sync::mpsc::{self,TryRecvError};
 use std::thread;
 use std::time::Duration;
 
-
-const LOCAL_HOST : &str = "159.75.121.123:9999";//服务端地址
+//修改服务端地址
+const LOCAL_HOST : &str = "xxx.xxx.xxx:9999";//服务端地址
 const MESSAGE_SIZE : usize = 1024;//缓冲区大小
 
 fn main() {
